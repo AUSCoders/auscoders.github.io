@@ -1,1 +1,1 @@
-# auscoders.githab.io
+# educational.github.io
