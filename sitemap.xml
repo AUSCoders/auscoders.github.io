@@ -10,7 +10,38 @@
 <url>
   <loc>https://auscoders.github.io/</loc>
   <lastmod>2024-05-24T08:21:25+00:00</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://auscoders.github.io/django.html"/>
+<xhtml:link rel="alternate" hreflang="de-ch" href="https://auscoders.github.io/python.html"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://auscoders.github.io/javascrapts.html"/>
+      <changefreq>weekly</changefreq>
+	<priority>0.3</priority>
+
 </url>
+
+<url>
+    <loc>https://auscoders.github.io/django.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://auscoders.github.io/django.html"/>
+    <xhtml:link rel="alternate" hreflang="de-ch" href="https://auscoders.github.io/python.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auscoders.github.io/javascrapts.html"/>
+      <changefreq>weekly</changefreq>
+	<priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://auscoders.github.io/python.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://auscoders.github.io/django.html"/>
+    <xhtml:link rel="alternate" hreflang="de-ch" href="https://auscoders.github.io/python.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auscoders.github.io/javascrapts.html"/>
+   <changefreq>weekly</changefreq>
+   <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://auscoders.github.io/javascrapts.html</loc>
+     <xhtml:link rel="alternate" hreflang="de" href="https://auscoders.github.io/django.html"/>
+    <xhtml:link rel="alternate" hreflang="de-ch" href="https://auscoders.github.io/python.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auscoders.github.io/javascrapts.html"/>
+<changefreq>weekly</changefreq>
+<priority>0.3</priority>
+  </url>
 
 
 </urlset>
