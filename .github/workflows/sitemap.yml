@@ -1,0 +1,24 @@
+name: Generate sitemap.xml
+
+on:
+  push:
+    branches:
+      - main # Set a branch name to trigger the workflow
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Ensure we fetch all history to avoid issues
+
+      - name: Generate sitemap.xml
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://auscosers.github.io/python.html/ # Set your base URL
+          path-to-root: . # If your sitemap.xml should be in the root folder, use '.'
+          filepath: sitemap.xml # Set the output file name
+          exclude-paths: /docs/ # Exclude specific paths if needed
+          drop-html-extension: true # Remove .html extensions from URLs
