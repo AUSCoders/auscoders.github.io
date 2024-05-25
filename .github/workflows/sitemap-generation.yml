@@ -19,7 +19,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://actions.cicirello.org/
+        base-url-path: https://auscosers.github.io/
     
     - name: Output stats
       run: |
